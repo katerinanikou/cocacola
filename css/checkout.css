@@ -1,0 +1,293 @@
+*   {
+    font-family:'Work Sans', sans-serif;
+    }
+/*--Linjerna--*/
+hr  {
+    border: 0;
+    height: 3px;
+    width: 40%;
+    background-color: rgba(174,146, 102, 1);
+    margin-bottom: 20px;
+}
+.checkout-wrapper {
+    max-width:800px;
+}
+/*--DIV som omsluter alla formulär--*/
+.checkout-content {
+    margin:0 auto;
+    width:100%;
+}
+
+/*--RUBRIKER LEVERANS UPPGIFTER, BETALNINGSMETOD & FRAKTSÄTT--*/
+h2.site_title {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    color: black;
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+	color: #5a4c36;
+}
+
+/*--FORMULÄR TITLAR--*/
+h3.form-header {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    color: black;
+    font-size: 1em;
+    text-align: center;
+    text-transform: uppercase;
+	color: #5a4c36;
+}
+
+/*--DIV FÖR 1A FORMULÄRET--*/
+#your-info {
+    margin:0 auto;
+    text-align: center;
+}
+
+/*--ALLA INPUTFÄLT--*/
+ input[type="text"]{
+    margin:0 auto;
+    border: 1px solid #AE9266;
+	padding: 10px;
+	font-size: 10px;
+	margin-bottom: 8px;
+	width: 50%;
+}
+
+/*--LISTA FÖR BETALNINGSMETOD--*/
+
+.payment-lista > label > input {
+    margin-right: 10px;
+}
+ul.payment-method {
+    margin:0 auto;
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+
+/*--LISTA FÖR FRAKTSÄTT--*/
+ul.shipping-method{
+    margin:0 auto;
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+
+.payment-lista{
+    margin-left: 33%;
+    margin-bottom: 2%;
+}
+
+.shipping-lista {
+    margin-left: 33%;
+    margin-bottom: 2%;
+}
+
+.shipping-lista > label > input {
+    margin-right: 10px;
+}
+
+/*--ANNAN LEVERANSADRESS--*/
+#street2-hidden {
+	display: none;
+}
+
+input[type=checkbox]:checked ~ #street2-hidden{
+	display: block;
+}
+
+/*--VISNING AV CART--*/
+tbody{
+    margin:0 auto;
+}
+
+th  {
+    border-bottom: black;
+}
+
+table, th, td {
+    border:none;
+    border-collapse: collapse;
+    text-align: center;
+}   
+
+td  {
+    width: 15%;
+    font-size: 16px;
+}
+
+tr {
+    height: 40px;
+}
+
+#prod-sum {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#to-pay {
+    font-size: 20px;
+    border: solid #AE9266 1px;
+    float: right;
+    padding: 10px;
+    text-align: center;
+    margin-right:15%;
+    margin-top: 20px;
+}
+
+#moms {
+    font-size: 14px;
+    clear: both;
+    float: right;
+    padding: 10px;
+    text-align: right;
+    margin-right:15%;
+}
+
+.checkout-img {
+    width: 80px;
+    height: 100px;
+}
+
+/*--DIV FÖR ATT OMSLUTA HELA MINI CARTEN--*/
+.mini-cart{
+    margin: 0 auto;
+    width: 80%;
+}
+
+/*--Lägg order knapp--*/
+
+button.btn-placeorder{
+    margin:0 auto;
+    margin-top:8%;
+    margin-bottom:5%;
+	padding: 15px;
+	background-color: #AE9266;
+	border: none;
+	width: 100%;
+	position: relative;
+	color: white;
+	font-size: 1em;
+	text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    }
+
+#last-hr{
+    margin-top: 60px;
+    margin-bottom:0;
+}
+
+
+
+/*--Media Queries--*/
+
+
+@media all and (max-width:1100px){
+    #to-pay {
+        margin-right: 5%;
+    
+}
+
+#moms {
+    margin-right:5%;
+}
+}
+
+@media all and (max-width:900px){
+    
+.payment-lista, .shipping-lista{
+    margin-left: 40%;
+
+}
+
+.shipping-lista {
+    margin-left: 40%;
+
+}
+    
+    
+}
+
+@media all and (max-width:800px){
+    
+.payment-lista{
+    margin-left: 36%;
+
+}
+
+.shipping-lista {
+    margin-left: 36%;
+
+}
+    
+    
+}
+
+
+
+@media all and (max-width:515px){
+    
+h2.site_title {
+    font-size: 1.8em;
+  
+}
+    .checkout-wrapper {
+    max-width:500px;
+}
+    .payment-lista{
+    margin-left: 25%;
+
+}
+
+.shipping-lista {
+    margin-left: 25%;
+
+}
+     input[type="text"]{
+
+	width: 70%;
+}
+    
+    td {
+        font-size: 12px;
+    }
+    
+    #prod-sum {
+
+    font-size: 16px;
+}
+}
+
+
+
+
+
+@media all and (max-width:450px){
+    ul.payment-method {
+margin-right: 40px; 
+}
+    
+    .payment-lista{
+    margin-left: 25%;
+
+}
+
+.shipping-lista {
+    margin-left: 25%;
+
+}
+.checkout-img {
+    width: 60px;
+    height: 80px;
+}
+    #prod-sum {
+
+    font-size: 13px;
+}
+    
+    
+}

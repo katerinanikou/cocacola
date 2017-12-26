@@ -1,0 +1,317 @@
+@font-face {
+  font-family: 'millhouse-prod-share';
+  src: url('fontello-prod-share/font/millhouse-prod-share.eot?70001225');
+  src: url('fontello-prod-share/font/millhouse-prod-share.eot?70001225#iefix') format('embedded-opentype'),
+       url('fontello-prod-share/font/millhouse-prod-share.woff2?70001225') format('woff2'),
+       url('fontello-prod-share/font/millhouse-prod-share.woff?70001225') format('woff'),
+       url('fontello-prod-share/font/millhouse-prod-share.ttf?70001225') format('truetype'),
+       url('fontello-prod-share/font/millhouse-prod-share.svg?70001225#millhouse-prod-share') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+    
+}
+
+figure {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.share-prod {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    width: 75%;
+}
+
+.share-prod #fb-font, #inst-font, #pint-font, #mail-font{
+    color: #807b74;
+    font-size: 1.5em;
+    font-family: 'millhouse-prod-share';
+    margin: 5px;
+}
+
+#fb-font::before {
+    content:'\66';
+}
+
+#inst-font::before {
+    content:'\69';
+}
+
+#pint-font::before {
+    content:'\70';
+}
+
+#mail-font::before {
+    content:'\6d';
+}
+
+.single_img {
+	width: 100%;
+}
+
+hgroup> h2 {
+    padding-top: 10px;
+}
+
+.product_title {
+	text-align: center;
+	margin-top: 15px;
+	font-size: 2em;
+	color:#5a5752;
+}
+
+.product_details {
+	text-align: center;
+	padding-top: 45px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	width: 75%;
+	line-height: 1.2em;
+	color: #807b74;
+    line-height: 1.5em;
+}
+
+.product_price {
+	font-size: 2em;
+	color: #807b74;
+    display: table;
+	margin: 0 auto;
+	margin-top: 10px;
+	text-align: center; 
+	padding-bottom: 10px;
+}
+
+form {
+    text-align: center;
+    margin-top: 10px;
+}
+
+label[for="cart_qty"] {
+    color: #807b74;
+    text-align: center;
+}
+
+#cart_qty {
+	padding: 5px;
+	margin: 0 auto;
+	display: block;
+	border: 1px solid #AE9266;
+    color: #5a5752;
+	width: 16%;
+	text-transform: uppercase;
+	text-align: center;
+    font-size: 1.5em;
+}
+
+#single-prod-button {
+    width: 60%;
+    color: white;
+    text-align: center;
+    background-color: rgba(174,146, 102, 1);
+    border: none;
+    padding: 12px;
+    font-size: 1.3em;
+    margin-top: 18px;
+}
+
+.product_single {
+    margin-bottom: 50px;
+}
+
+ /************ LIKNANDE PRODUKTER *******/
+
+ hr {    
+    margin: 0 auto;
+    border: 0;
+    height: 3px;
+    width: 90%;
+    background-color: rgba(174,146, 102, 1);
+    margin-bottom: 20px;
+}
+
+.product_upsale {
+    width: 100%;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+    
+.product_wrapper_upsale {
+        width: 50%;
+    }
+
+
+.prod_img_upsale {
+    width: 70%;
+    margin-left:15%;
+    margin-right: 15%;
+}
+
+.button-upsale {
+	margin: 0 auto;
+	padding: 15px;
+	background-color: #AE9266;
+	border: none;
+	width: 40%;
+	position: relative;
+	margin-left: 30%;
+	margin-right: 30%;
+	color: white;
+	font-size: 1em;
+	text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+h2, h3, h4, p {
+    color: #5a5752;
+    text-decoration: none;
+    text-align: center;
+}
+
+.upsale_title {
+    margin-bottom: 15px;
+}
+
+
+/************* MEDIA QUERIES!!!! *********/
+
+/******* MEDIA QUERIES FÖR SKÄRM > 600px ************/
+
+@media (min-width: 600px) {
+    
+    .product_upsale {
+    flex-wrap: nowrap;
+    }
+    
+    .product_wrapper_upsale:nth-child(4) {
+        display: none;
+    }
+    
+    hgroup> h2 {
+    padding-top: 50px;
+}
+    .product_details {
+	width: 50%;
+   
+}
+    #single-prod-button{
+        width: 50%;
+    }
+
+      
+}
+
+/******* MEDIA QUERIES FÖR SKÄRM > 700px ************/
+
+@media (min-width: 700px) {
+    .single_img_wrapper {
+        display: inline;
+        float:left;
+        width: 50%;
+    }
+    
+    .share-prod {
+   margin-right: 2%;
+    width: 50%;
+}
+        .product_details {
+	margin-right: 2%;
+    line-height: 1.5em;
+   
+}
+     #single-prod-button{
+        width: 40%;
+    }
+      
+}
+
+
+/******* MEDIA QUERIES FÖR SKÄRM > 800px ************/
+@media (min-width: 800px) {
+    
+    .product_wrapper_upsale:nth-child(4) {
+        display: inline;
+    }
+    
+    figure {
+        width: 420px;
+}
+    
+      
+}
+      
+/******* MEDIA QUERIES FÖR SKÄRM > 1025px ************/
+@media (min-width: 1025px) {
+    
+    
+	.product_single {
+		width: 100%;
+	}
+	
+	.single_img_wrapper {
+		width: 30%;
+		display: inline-block;
+		margin-left: 20%;
+	}
+    
+    .share-prod {
+        margin-right: 15%;
+        width: 70%;
+}
+    
+
+	div.prod_info_wrapper {
+		width: 45%;
+		float: right;
+		margin-right: 5%;
+	}
+    
+    h2 {
+        float: none;
+        clear:both;
+    }
+
+	.product_title {
+		font-size: 2.5em;
+	}
+
+	.product_details {
+		width: 70%;
+        text-align: center;
+        margin-right:auto;
+        line-height: 1.5em;
+	}
+	
+	.product_price {
+		font-size: 2em;
+
+	}
+	
+	input {
+		padding: 10px;
+		font-size: 1em;
+	}
+	
+	.product_price {
+		display: table;
+
+	}
+
+	#single-prod-button {
+		font-size: 1em;
+		padding: 10px;
+        width: 50%;
+	}
+    
+  
+}
+    
+   

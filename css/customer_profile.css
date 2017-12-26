@@ -1,0 +1,152 @@
+aside{
+    float:left;
+    width:25%;
+    display:block;
+    margin-top: 75px;
+}
+aside h3{
+   text-align: center;
+    font-size: 1.6em;
+}
+main{
+    float:right;
+    width:70%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    text-align: center;
+}
+li a {
+    display: block;
+    color: #000;
+    /*padding: 8px 16px;*/
+    text-decoration: none;
+}
+/*li a:hover {
+    background-color: #f0e8db;
+    color: gray;
+}*/
+button{
+    width:200px;
+    height: auto;
+    min-height: 60px;
+    margin: 10px 0;
+    background-color: #AE9266;
+    color: white;
+}
+button:hover{
+    background-color: #f0e8db;
+    color: #AE9266;
+}
+h1 {
+	text-align: center;
+	font-size: 2.5em;
+	padding-top: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #5a4c36;
+}
+.myForm{
+    display:block;
+    margin-top: 10px;
+   /* background-color: bisque;
+     margin:0 auto;
+    border: 1px solid #AE9266;
+	padding: 5px;
+	/*font-size: 10px;
+	margin-bottom: 5px;	
+	width: 90%;*/
+}
+input{
+    display: block;
+    margin:0 auto;
+    border: 1px solid #AE9266;
+	padding: 5px;
+	margin-bottom: 5px;	
+	width: 75%;
+}
+.fix{
+    clear:both;
+}
+
+.tack_bye{
+    font-size: 1.6em;
+    text-align: center;
+    
+}
+#tack_bild{
+     width:50%;
+     height:45%
+}
+
+.orders_table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.orders_table th, td {
+    text-align: left;
+    padding: 8px;
+}
+.orders_table th{
+    background-color: #AE9266;
+    color: white;
+}
+
+.orders_table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+#save_changes {
+    width:25%;
+    margin:auto;
+}
+
+
+
+/***** CSS FÖR RADERA KONTO TPL ****/
+
+.confirm_deleteForm {
+    margin: 0 auto;
+    max-width: 500px;
+    font-family: 'Work sans', sans-serif;
+    
+}
+
+.confirm_deleteForm > form {
+    text-align: center;
+    padding: 10px;
+}
+
+.Confirm-delete {
+    font-size: 16px;
+}
+
+.buttons {
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.confirm_deleteForm .btn-danger{
+    background-color: red;
+    max-width: 130px;
+    display: inline;
+    border: none;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    
+}
+.confirm_deleteForm .btn-succes{
+    background-color: green;
+    max-width: 130px;
+    display: inline;
+    border: none;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}

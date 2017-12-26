@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2017 by original authors @ fontello.com</metadata>
+<defs>
+<font id="millhouse-prod-share" horiz-adv-x="1000" >
+<font-face font-family="millhouse-prod-share" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="facebook" unicode="&#x66;" d="M313 454l156 0 0-156-156 0 0-364-157 0 0 364-156 0 0 156 156 0 0 66q0 50 16 102t43 81q58 64 145 64l109 0 0-157-109 0q-20 0-34-13t-13-33l0-110z" horiz-adv-x="469" />
+
+<glyph glyph-name="instagram-filled" unicode="&#x69;" d="M604 339c0 54-45 98-99 98-54 0-98-44-98-98 0-54 44-98 98-98 54 0 99 44 99 98z m146 510h-500c-137 0-249-111-249-248v-69h367c39 27 86 43 137 43 51 0 99-16 137-43h358v69c0 137-112 248-250 248z m101-236c0-15-12-28-28-28h-85c-16 0-28 13-28 28v85c0 16 12 28 28 28h85c16 0 28-12 28-28v-85z m-109-274c0-130-106-236-237-236-131 0-237 106-237 236 0 36 8 70 23 101h-290v-341c0-137 112-248 249-248h500c138 0 250 111 250 248v341h-280c14-31 22-65 22-101z" horiz-adv-x="1000" />
+
+<glyph glyph-name="mail-alt" unicode="&#x6d;" d="M1000 454v-443q0-37-26-63t-63-27h-822q-36 0-63 27t-26 63v443q25-27 56-49 202-137 278-192 32-24 51-37t53-27 61-13h2q28 0 61 13t53 27 51 37q95 68 278 192 32 22 56 49z m0 164q0-44-27-84t-68-69q-210-146-262-181-5-4-23-17t-30-22-29-18-32-15-28-5h-2q-12 0-27 5t-32 15-30 18-30 22-23 17q-51 35-147 101t-114 80q-35 23-65 64t-31 77q0 43 23 72t66 29h822q36 0 63-26t26-63z" horiz-adv-x="1000" />
+
+<glyph glyph-name="pinterest" unicode="&#x70;" d="M331 754q129 0 212-79t82-186q0-139-70-229t-180-90q-36 0-69 18t-45 41q-26-107-32-127-20-73-84-153-7-8-10 2-15 107 1 177l59 254q-15 28-15 72 0 51 26 86t64 34q30 0 46-19t17-50q0-18-7-45t-18-63-17-57q-8-36 14-63t60-27q64 0 105 73t41 175q0 79-50 128t-142 49q-103 0-166-65t-63-157q0-54 31-91 10-13 7-25-2-3-4-14t-3-15-5-13-8-8-13 1q-95 39-95 176 0 110 89 200t242 90z" horiz-adv-x="625" />
+</font>
+</defs>
+</svg>

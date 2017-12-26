@@ -1,0 +1,55 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div #about_us_banner > img  {
+    max-width: 100%;
+    max-height: 100%;
+} 
+
+h1, h2, h3, p {
+    text-align: center;
+    color: #5a5752;
+}
+
+h2 {
+    color: #AE9266;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+p {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+p:nth-child(2) {
+    color: red;
+}
+
+
+form {
+    text-align: center;
+}
+
+button {
+    background-color: #AE9266;
+    color: white;
+    border: none;
+    padding: 10px 22px 10px 22px;
+}
+
+input {
+    border: 1px solid #AE9266;
+    width: 200px;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+}
+input:active {
+    border: #AE9266;
+}
+

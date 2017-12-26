@@ -1,0 +1,484 @@
+@font-face {
+  font-family: 'millhouse-arrow';
+  src: url('fontello_icons/arrows/font/millhouse-arrow.eot?43336856');
+  src: url('fontello_icons/arrows/font/millhouse-arrow.eot?43336856#iefix') format('embedded-opentype'),
+       url('fontello_icons/arrows/font/millhouse-arrow.woff2?43336856') format('woff2'),
+       url('fontello_icons/arrows/font/millhouse-arrow.woff?43336856') format('woff'),
+       url('fontello_icons/arrows/font/millhouse-arrow.ttf?43336856') format('truetype'),
+       url('fontello_icons/arrows/font/millhouse-arrow.svg?43336856#millhouse-arrow') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body, .startpage {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Open sans', sans-serif;
+}
+
+button {
+	margin: 0 auto;
+	padding: 20px;
+	background-color: transparent;
+	border: 2px solid #AE9266;
+	width: 40%;
+	position: relative;
+	margin-left: 30%;
+	margin-right: 30%;
+	color: #AE9266;
+	text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #AE9266;
+    border: none;
+    color: white;
+}
+
+#create {
+    margin: 0 auto;
+    padding: 30px;
+    background-color: transparent;
+    border: 2px solid white;
+    width: 30%;
+    position: absolute;
+    top: 45%;
+    right: 0%;
+    left: 0%;
+
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#create:hover {
+    color: #f0bb29;
+}
+
+.start-cat-button:visited{
+    text-decoration: none;
+}
+
+h2.our-favorites {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 40px;
+    color: #5a5752;
+}
+
+
+h3 {
+    color: #5a5752;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+.start_cat, .start_prod{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: auto;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.product_wrapper img {
+    width: 70%;
+    margin-left:15%;
+    margin-right: 15%;
+}
+
+.product_wrapper p, h3 {
+    text-align: center;
+}
+.category_wrapper, .product_wrapper  {
+    width: 30%;
+    position: relative;
+}
+
+/******* CSS FÖR KATEGORIBILDERNA ************/
+
+.category_wrapper {
+    margin: 20px;
+}
+
+.start-cat-button {
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    color: white;
+    z-index: 234;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+.start-cat-button:visited {
+    color: white;
+}
+
+.category_wrapper:hover > .start-cat-button {
+    display: inline-block;
+    outline: 5px solid white;
+}
+
+.category_wrapper img{
+    width: 100%;
+    filter: grayscale(0%);
+    height: 100%;
+}
+
+.category_wrapper img:hover {
+     -webkit-filter: blur(2 px); /* Safari 6.0 - 9.0 */
+    filter: blur(2px);
+}
+
+
+
+/******* ALL CSS FÖR TOPBILD ************/
+
+.startpage {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.startpage_bigimage {
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.topimage {
+    max-width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+}
+
+.buttonContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 50%;
+    bottom: 0;
+    margin-left: -42px;
+}
+
+.buttons {
+    border-radius: 50%;
+    border: 2px solid rgba(174,146, 102, 1);
+    width: 7px;
+    height: 7px;
+    margin: 5px;
+}
+
+.buttonActive {
+    background-color: rgba(174,146, 102, 1);
+}
+
+
+/* CSS för Ansök om medlemsskap */
+#ansok-granza {
+    width: 100%;
+    height: 380px;
+    background-color: #D4A80E; 
+    margin-top: 5%;
+    display: flex;
+}
+
+.placement-left {
+    width: 40%;
+    padding-left: 5%;
+    flex: 1;
+}
+
+img.orange {
+    width: 600px;
+    height: 781px;
+    margin-top: -15%;
+    position: absolute;
+}
+
+img.rockrose {
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    left: 30%;
+    margin-top: 3%;
+}
+
+img.junpierberry {
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    left: 20%;
+    margin-top: 10%;
+}
+
+.placement-right {
+    width: 50%;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    flex: 0 0 60%; 
+}
+
+#ansok-medlemsskap {
+    margin: 0 auto;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#ansok-medlemsskap:hover { 
+    color: black;
+    background-color: white;
+}
+
+
+
+/******* NEDAN ÄR CSS FÖR ERBJUDANDEBANNERN ************/
+
+#offer-banner {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.banner-img {
+    max-height: 400px;
+    width: 50%;
+}
+
+#banner-text {
+    width: 50%;
+    background-color: rgba(174,146, 102, 1);
+    opacity: 0.9;
+}
+#banner-title {
+    color: white;
+    font-size: 45px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.banner-p {
+    color: white;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.banner-p:first-of-type {
+    margin-bottom: 50px;
+}
+
+#offer-link {
+    height: 40px;
+    border: 3px solid white;
+    width: 45%;
+    margin: 0 auto;
+}
+
+#offer-link > .banner-p {
+    padding-top: 8px;
+    font-size: 18px;
+}
+
+#banner-a {
+    color: white;
+}
+
+/******* NEDAN ÄR CSS FÖR NYHETSBREVBANNER ************/
+
+#newsletter-wrapper {
+    background-color: rgba(174,146, 102, 1);
+    opacity: 0.9;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 50px;
+    display: hidden;
+}
+
+#newsletter-h3 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+    font-family: 'Open sans';
+}
+
+#newsletter-p {
+    text-align: center;
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+    text-transform: none;
+} 
+
+#newsletter-input {
+    width: 50%;
+    margin: 0 auto;
+    border: 0;
+    height: 30px;
+    margin-top: 55px;
+    margin-bottom: 20px;
+    display: block;
+    padding-left: 10px;
+}
+
+#newsletter-submit {
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #AE9266;
+    border: 2px solid white;
+    width: 35%;
+    position: relative;
+    margin-left: 33%;
+    margin-right: 33%;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#newsletter-submit:hover {
+    color: #AE9266;
+    background-color: white;
+}
+
+/******* MEDIA QUERIES FÖR SKÄRM < 950px ************/
+
+
+@media all and (max-width:950px){
+    
+        
+    #banner-title {
+        font-size: 35px;
+    }
+    #offer-link > .banner-p {
+    font-size: 16px;
+}
+
+    
+}
+
+
+/******* MEDIA QUERIES FÖR SKÄRM < 800px ************/
+
+
+@media all and (max-width:800px){
+    
+    .product_wrapper:nth-child(4) {
+        display: none;
+    }
+    
+    .start_cat, .start_prod {
+    flex-wrap: wrap;
+}
+        #offer-link > .banner-p {
+    font-size: 14px;
+}
+}
+
+/******* MEDIA QUERIES FÖR SKÄRM < 700px ************/
+
+
+@media all and (max-width:700px){
+    #banner-title {
+        font-size: 28px;
+    }
+    #offer-link > .banner-p {
+    font-size: 13px;
+}
+
+    
+    
+    
+}
+
+/******* MEDIA QUERIES FÖR SKÄRM < 650px ************/
+
+
+@media all and (max-width:650px){
+    
+   .product_wrapper:nth-child(4) {
+        display: inline;
+    }
+    
+    .product_wrapper  {
+    width: 50%;
+    }
+    
+    .category_wrapper {
+        width: 80%;
+    }
+    
+    .startpage_slider {
+        height: 250px;
+    }
+
+    .sliderPic {
+    max-height: 250px;
+    
+    }
+    
+    #offer-link > .banner-p {
+    font-size: 12px;
+}
+    
+    
+
+}
+
+/******* MEDIA QUERIES FÖR SKÄRM < 580px ************/
+
+
+@media all and (max-width:580px){
+    
+    #banner-title {
+        font-size: 18px;
+    }
+    #offer-link > .banner-p {
+        margin-top: 5px;
+        font-size: 11px;
+}
+    .banner-p {
+font-size: 13px;
+}
+    
+    #offer-link {
+    width: 65%;
+}
+    #newsletter-input {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+    #newsletter-h3 {
+        font-size: 23px;
+}
+    
+}
+
+

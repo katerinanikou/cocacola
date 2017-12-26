@@ -1,0 +1,142 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.cat_img {
+object-fit: cover;
+    width: 100%;
+	height: 200px;
+}
+
+.category_banner {
+    width: 100%;
+}
+
+.category_banner_text {
+    margin: 0 auto;
+	width: 90%;
+	padding-bottom: 10px;
+	padding-top: 24px;
+	line-height: 1.3em;
+    text-align: center;
+    max-width: 750px;
+}
+
+.main_wrapper {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: auto;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding-bottom: 15px;
+}
+
+.product_wrapper {
+	width: 50%;
+
+}
+
+.prod_img {
+	width: 100%;
+	display: inline-block;
+}
+
+h1 {
+	padding-bottom: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #5a5752;
+}
+
+h3 {
+	text-align: center; 
+    color: #5a5752;
+}
+
+p.price {
+	text-align: center; 
+	padding-bottom: 10px;
+    color: #5a5752;
+}
+p.description {
+	color: #5a5752;
+}
+
+a.button-a {
+    text-decoration: none;
+    color: white;
+}
+
+a.button-a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#button {
+	margin: 0 auto;
+	padding: 15px;
+	background-color: #AE9266;
+	border: none;
+	width: 40%;
+	position: relative;
+	margin-left: 30%;
+	margin-right: 30%;
+	color: white;
+	text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+/******* MEDIA QUERIES FÖR SKÄRM > 650px ************/
+@media (min-width: 650px) {
+    
+.category_banner_text {
+ width: 100%;
+}
+    
+    .cat_img {
+
+	height: 300px;
+}
+      
+}
+      
+
+
+/******* MEDIA QUERIES FÖR SKÄRM > 1025px ************/
+
+@media (min-width: 1025px) {
+
+	.product_wrapper {
+	width: 30%;
+	}
+	
+	h1 {
+	margin-top: 35px;
+	}
+
+	.category_banner {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	}
+	.cat_img {
+		height: 400px;
+	}
+	#button {
+	width: 50%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: 25%;
+	margin-right: 25%;
+	}
+
+	.description {
+		line-height: 1.5em;
+	}
+
+}
+
+

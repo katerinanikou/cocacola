@@ -1,0 +1,97 @@
+* {
+    font-family: 'Work Sans';
+}
+
+h1, #add-product-h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+hr{    
+    border: 0;
+    height: 3px;
+    width: 40%;
+    background-color: rgba(174,146, 102, 1);
+    margin-bottom: 20px;
+}
+
+#create-product, #search-product {
+    width: 100%;
+}
+
+form {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#prod-pic-div {
+    border: 1px solid rgba(174,146, 102, 1);
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#prod-pic {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+form:first-of-type {
+    margin-bottom: 40px;
+}
+
+
+input, #prod-price, #prod-title, #file-upload, textarea {
+    width: 50%;
+    max-width: 450px;
+    border: 1px solid #AE9266;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+select {
+    width: 200px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#save-product-button, #search-product-button, #search-page-button, #save-page-button {
+    margin: 0 auto;
+	padding: 10px;
+	background-color: #AE9266;
+	border: none;
+	width: 200px;
+	position: relative;
+	color: white;
+	font-size: 1em;
+	text-transform: uppercase;
+    cursor: pointer;
+}
+#save-product-button {
+    display: inline-block;
+    margin: 15px;
+}
+
+#search-product-button {
+    width: 100px;
+    display: block;
+    margin-top: 20px;
+}
+
+#p-error {
+    text-align: center;
+    color: red;
+}
+
+#p-success {
+    text-align: center;
+    color: green;
+    font-size: 24px;
+}

@@ -1,0 +1,154 @@
+* {
+	/*margin: 0;*/
+	padding: 0;
+	box-sizing: border-box;
+}
+.main_wrapper {
+	width: 100%;
+	height: auto;
+	padding-bottom: 20px;
+	position: flex;
+	justify-content: center;
+}   
+
+
+h2.admin_title {
+	text-align: center;
+	padding-top: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #5a4c36;
+}
+
+.admin_img_wrapper {
+    width: 100%
+    margin-top: 80px;
+}
+
+ .admin_img {
+ 	width: 100%;
+ }
+
+.link_div {
+	width: 100%;
+	margin: 0 auto;	
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+.log_out_wrapper {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+	#logout_button {
+	width: 100%;
+	display: block;
+	text-transform: uppercase;
+ 	text-decoration: none;
+ 	color: white;
+ 	background-color: #AE9266;
+ 	text-align: center;
+/* 	margin-bottom: 5px;*/
+ 	margin: 0 auto;	
+ 	border: none;
+ 	padding-top: 10px;
+ 	padding-right: 20px;
+ 	padding-left: 20px;
+ 	padding-bottom: 10px;
+ 	font-size: 10px;
+/* 	box-shadow: 2px 2px 2px #888888;*/
+	}
+
+	#logout_button:hover {
+		background-color: #e8cea4;
+	}
+	.shop_link {
+	display: inline-block;
+	width: 100%;
+	text-transform: uppercase;
+ 	text-decoration: none;
+ 	color: white;
+ 	background-color: #AE9266;
+ 	text-align: center;
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;*/
+ 	margin: 0 auto;
+ 	margin-top: 5px;	
+ 	border: none;
+ 	font-size: 10px;
+ /*	box-shadow: 2px 2px 2px #888888;*/
+	}
+
+	a.shop_link:hover {
+		background-color: #e8cea4;
+	}
+
+@media (min-width: 1025px) {
+	.main_wrapper {
+	width: 100%;
+	height: auto;
+	padding-bottom: 35px;
+	}
+	h2.admin_title {
+	font-size: 24px;
+	padding-top: 50px;
+	}
+	.admin_img_wrapper {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+	}
+	.admin_img {
+	border-top: 3px solid #AE9266;
+	max-width: 100%;
+	max-height: 400px;
+	}
+	.link_div {
+	width: 50%;
+	max-width: 400px;
+	margin-right: 50px;
+	margin-top: 30px;
+	float: right;
+	}
+	 .admin_link {
+ 	display: block;
+ 	text-transform: uppercase;
+ 	text-decoration: none;
+ 	color: white;
+ 	background-color: #AE9266;
+ 	font-size: 12px;
+ 	text-align: center;
+ 	margin-bottom: 5px;
+ 	border: none;
+	}
+	.log_out_wrapper {
+	padding-top: 0px;
+	width: 300px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	margin-top: 5px;
+
+	}
+	#logout_button {
+	width: 150px;
+	text-transform: uppercase;
+ 	text-decoration: none;
+ 	color: white;
+ 	text-align: center;
+ 	border: none;
+ 	display: inline-block;
+ 	float: none;
+
+	}
+	a.shop_link {
+	color: white;
+ 	text-align: center;
+ 	border: none;
+ 	width: 150px;
+ 	margin-top: 0;
+ 	margin-left: 5px;
+	}

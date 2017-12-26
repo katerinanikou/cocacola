@@ -1,0 +1,231 @@
+@font-face {
+  font-family: 'millhouse-icons';
+  src: url('fontello_icons/font/millhouse-icons.eot?90053595');
+  src: url('fontello_icons/font/millhouse-icons.eot?90053595#iefix') format('embedded-opentype'),
+       url('fontello_icons/font/millhouse-icons.woff2?90053595') format('woff2'),
+       url('fontello_icons/font/millhouse-icons.woff?90053595') format('woff'),
+       url('fontello_icons/font/millhouse-icons.ttf?90053595') format('truetype'),
+       url('fontello_icons/font/millhouse-icons.svg?90053595#millhouse-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+    margin: 0;
+    z-index: -1;
+}
+
+header {
+    width: auto;
+    height: 100px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'open sans';
+    margin: 0;
+    padding: 0;
+}
+
+.menu_icons {
+    margin: 35px;
+    font-size: 20px;
+    color: #ffffff
+}
+
+#id_logo {
+    padding-top: 25px;
+    display: inline-block;
+    margin: 0 auto;
+    padding-left: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+#profile::before {
+    font-family: 'millhouse-icons';
+    content: '\6d';
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+
+#profile {
+    margin-right: 20px;
+}
+
+#shop_bag::before {
+    font-family: 'millhouse-icons';
+    content: '\62';
+    font-size: 1.2em;
+}
+
+#profile:hover::before, #shop_bag:hover::before {
+    color: #ffffff;
+}
+
+.menu {
+    width: 20%;
+    height: 100%;
+    background-color: #ffffff;
+    opacity: 0.8;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    left: -400px;
+    transition: left 0.5s;
+    z-index: 3;
+}
+
+h1#menu-button {
+    text-align: center;
+    font-weight: normal;
+    padding-top: 80px;
+    color: black;
+    font-weight: 400;
+}
+
+.menu > ul {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 0;
+}
+
+.ulmenu > li > a {
+    display: block;
+    padding-bottom: 12px;
+    color: black;
+}
+
+.ulmenu li a:hover {
+   color: #c17900; 
+}
+
+input#nav-trigger:checked ~ nav {
+    left:0;
+}
+          
+#nav-trigger {
+    position:absolute;
+    left: -100px;
+    display: none;
+}
+
+label[for="nav-trigger"] {
+    display: inline-block;
+    color: white;
+    z-index: 5;
+}
+
+.toggle {
+    font-size: 30px;
+    margin-left: 35px;
+    margin-top: 25px;
+    position: relative;
+}
+
+input#nav-trigger:checked ~ .toggle {
+    transition: right 0.9s;
+}
+
+/* QUANTITY IN CART*/
+#qty-cart {
+    height: 20px;
+    width: 20px;
+    background-color: #f0bb29;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    bottom: 5px;
+    left: -10px;
+}
+
+#qty {
+    font-size: 0.7em;
+    color: black;
+    font-weight: 300;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:890px){
+    
+    .menu {
+    width: 30%;
+    left: -700px;
+}
+
+    
+}
+
+@media all and (max-width:540px){
+    
+    .menu {
+    width: 100%;
+    left: -700px;
+}
+    
+    #id_logo {
+        padding-left: 82px;
+    }
+    
+}
+
+@media all and (max-width:405px){
+    
+    .menu_icons {
+        margin-left: 0;
+    }
+    
+}
+@media all and (max-width:380px){
+
+    #profile {
+    margin-right: 3px;
+}
+    
+    .menu_icons {
+        margin-left: 0;
+    }
+    
+
+}
+    
+@media all and (max-width:330px){
+    
+    .menu_icons{
+        margin-right: 20px;
+    }
+    
+    .toggle {
+    margin-left: 20px;
+}
+
+}
+
+@media all and (max-width:270px){
+#div-qty-cart {
+display: none;
+}
+}

@@ -1,0 +1,141 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.edit_user_wrapper {
+	width: 100%;
+}
+
+h2.edit_user_title {
+	text-align: center;
+    text-transform: uppercase;
+    color: #5a5752;
+    font-size: 14px;
+}
+form.edit_user_form {
+	margin-top: 20px;
+	width: 100%;	
+}
+
+input.edit_input {
+	border: 1px solid #AE9266;
+	padding: 8px 10px;
+	width: 100%;
+	margin: 0 auto;
+  	position: relative;	
+  }
+ label {
+	font-size: 11px;
+	color:  #5a5752;
+}
+button#edit_button {
+	font-size: 14px;
+	background-color: #AE9266;
+	border: none;
+	color: white; 
+    margin: 0 auto;
+    width: 45%;
+    padding: 5px 10px;
+	}
+
+button#delete_button {
+	font-size: 14px;
+	background-color: #AE9266;
+	border: none;
+	color: white; 
+    margin: 0 auto;
+    width: 45%;
+	padding: 5px 10px;
+	
+}
+.button_wrapper {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	flex-flow: row;
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+/******* MEDIA QUERIES FÖR SKÄRM > 800px ************/
+@media (min-width: 800px) {
+	.edit_user_wrapper {
+	width: 30%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+h2.edit_user_title {
+	text-align: center;
+    text-transform: uppercase;
+    margin-top: 60px;
+    color: #5a5752;
+    font-size: 20px;
+}
+form.edit_user_form {
+	margin-top: 20px;	
+}
+input:focus {
+	outline:1px solid #AE9266;
+}
+input.edit_input {
+	border: 1px solid #e4d6bf;
+	padding: 8px 10px;
+	width: 100%;
+	margin: 0 auto;
+  	position: relative;	
+  }
+label {
+	font-size: 11px;
+
+}
+
+label.newletter_label {
+	color: #5a5752;
+	vertical-align: bottom;
+  	position: relative;
+	}
+
+input#edit_user_checkbox {
+	position: relative;
+	background: #ffffcc;
+	outline:none;
+	margin-top: -2px;
+	}
+button#edit_button {
+	font-size: 14px;
+	background-color: #AE9266;
+	border: none;
+	color: white; 
+	display: block;
+    margin: 0 auto;
+    margin-top: 12px;
+    width: 150px;
+    padding: 5px 10px;
+	}
+
+
+button#delete_button {
+	font-size: 14px;
+	background-color: #AE9266;
+	border: none;
+	color: white; 
+	display: block;
+    margin: 0 auto;
+    margin-top: 12px;
+    width: 150px;
+    padding: 10px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+}

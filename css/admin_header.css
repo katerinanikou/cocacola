@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    /*margin: 0;*/
+    padding: 0;
+}
+a:visited {
+    color: #5a5752;
+}
+
+nav.ad_menu {
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 24px;
+    width: 100%;
+    max-width: 1000px;
+    height: 40px;
+}
+ul.ad_ulmenu {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.ad_li > a {
+    color: #5a5752; 
+    font-size: 22px;
+
+}
+
+li.ad_li {
+    float: left;
+    margin: 0px;
+    width: 20%;
+}
+
+.menu_link a {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    color: #5a5752;
+    text-align: left;
+    width: 20%;
+}
+
+ul li a:hover {
+    color: #AE9266;    
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+}
+nav ul li:hover > ul {
+    display: block;
+    background-color: white; 
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 15px; 
+
+}
+
+@media all and (max-width:890px) {
+    nav.ad_menu {
+ /*       background-color: lightgreen;*/
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+
+}
+        .ad_li > a {
+        color: #5a5752; 
+        font-size: 18px;
+
+}
+        li.ad_li {
+        float: left;
+/*        background-color: yellow;*/
+        text-align: center;
+        width: 20%;
+}
+        ul.ad_ulmenu {
+            width: 90%;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+}
+#order-hr1{ 
+    border: 0;
+    height: 3px;
+    width: 100%;
+    background-color: rgba(174,146, 102, 1);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    }
+
+@media all and (max-width:540px) {
+        li.ad_li {
+        float: none;
+/*        background-color: lightyellow;*/
+        text-align: center;
+        width: 100%;
+}
+        nav.ad_menu {
+        margin: 0 auto;
+        margin-top: 5px;
+        width: 100%;
+        max-width: 1000px;
+        height: auto;
+}
+
+        ul.ad_ulmenu {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 8px;
+        }
+        .ad_li > a {
+        color: #AE9266;
+        font-size: 14px;
+}
+        
+        nav ul ul {
+        display: block;
+        position: relative;
+}
+
+}
+}
+
+
+
+
+
+
+

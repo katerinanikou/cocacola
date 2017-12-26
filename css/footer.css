@@ -1,0 +1,64 @@
+footer {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    font-family: 'open sans';
+}
+
+/* Varje box har en width på 32%, 32 x 3 = 96%; så de övriga 4% distribueras
+jämnt mellan dessa och ger perfekt margin. */ 
+
+.square {
+    width: 32%; /* Definiera storlek på dem */
+}
+
+.wrap {
+    display: flex; /* Sätter dem horisontellt */
+}
+
+.footerwrap {
+    justify-content: space-between; /* Ger jämn margin */
+}
+
+.eq:nth-of-type(odd) {
+    border-right: 1px white solid; /* Enbart för ramens skull */
+}
+
+.eq:nth-of-type(even) {
+    border-right: 1px white solid; /* Enbart för ramens skull */
+}
+
+p.granza-foooter-text {
+    font-size: 12px;
+    color: white;
+    text-align: left;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+p.granza-foooter-links {
+    font-size: 15px;
+    line-height: 25px;
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 4%;
+    padding-left: 25%;
+    padding-bottom: 4%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+p.granza-foooter-links a:hover {
+       color: #c17900; 
+}
+
+#copyright {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 2px;
+}

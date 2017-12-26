@@ -1,0 +1,47 @@
+#cat-list-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Work sans';
+}
+
+#h1-cat {
+  text-align: center;
+    
+}
+
+hr {    
+    border: 0;
+    height: 3px;
+    width: 40%;
+    background-color: rgba(174,146, 102, 1);
+    margin-bottom: 30px;
+}
+
+.list-wrapper {
+    margin: 0 auto;
+    width: 80%;
+    font-family: 'Open sans';
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    width: 20%;
+}
+
+tr {
+    height: 40px;
+}
+
+.cat-list-img {
+    width: 100px;
+    height: 100px;
+}
+
+td.cat-desc-list {
+    font-size: 9px;
+}

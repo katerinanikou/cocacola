@@ -1,0 +1,101 @@
+* {
+    font-family: 'Open sans', sans-serif;
+}
+
+.search_order_div {
+    margin-top: 50px;
+    margin: 0 auto;
+    text-align: center;
+    width:100%;
+}
+
+#input_search_order{
+    border: 1px solid #AE9266;
+    padding: 8px;
+    width: 250px;
+}
+
+#search_order_btn {
+	padding: 9px;
+	background-color: #AE9266;
+    border: none;
+	width: 10%;
+	color: white;
+	font-size: 10px;
+	text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+#order-hr{ 
+    border: 0;
+    height: 3px;
+    width: 40%;
+    background-color: rgba(174,146, 102, 1);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    }
+#order-hr1{ 
+    border: 0;
+    height: 3px;
+    width: 100%;
+    background-color: rgba(174,146, 102, 1);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    }
+
+
+.rubrik1 {
+    text-align: center;
+}
+.rubrik2{
+    text-align: center;
+}
+.orders_table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.orders_table th, td {
+    text-align: left;
+    padding: 8px;
+}
+.orders_table th{
+    background-color: #AE9266;
+    color: white;
+}
+
+.orders_table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#updateStatus{
+    background-color: #AE9266;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.totalSumma{
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #AE9266;
+    padding: 10px;
+    width: 40%;
+    margin: 0 auto;
+}
+
+#info-a {
+    text-decoration: underline;
+}
+#label1{
+    margin-right: 20px;
+}
+#singelOrderRubrik{
+    text-align: center; 
+}
+#order-hr {
+    width:40%;
+    margin: 0 auto;
+    margin-top: 10px;
+}

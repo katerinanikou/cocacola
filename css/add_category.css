@@ -1,0 +1,93 @@
+h1#add-cat-h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+hr{    
+    border: 0;
+    height: 3px;
+    width: 40%;
+    background-color: rgba(174,146, 102, 1);
+    margin-bottom: 20px;
+}
+
+form {
+    margin: 0 auto;
+    text-align: center;
+}
+
+form:first-of-type {
+    margin-bottom: 40px;
+}
+
+#cat-pic-div {
+    border: 1px solid rgba(174,146, 102, 1);
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#cat-pic {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+input, #cat-title, #file-upload-cat, textarea {
+    width: 50%;
+    max-width: 450px;
+    border: 1px solid #AE9266;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+textarea,#cat-title {
+    display: block;
+    margin: auto;
+    margin-bottom: 30px
+}
+
+select {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+
+#save-cat-button, #search-cat-button{
+    margin: 0 auto;
+	padding: 10px;
+	background-color: #AE9266;
+	border: none;
+	width: 200px;
+	color: white;
+	font-size: 1em;
+	text-transform: uppercase;
+    cursor: pointer;
+}
+#save-cat-button{
+    display: inline-block;
+    margin: 15px;
+}
+
+#search-cat-button {
+    width: 100px;
+    display: block;
+    margin-top: 20px;
+}
+
+#p-error {
+    text-align: center;
+    color: red;
+}
+
+#p-success {
+    text-align: center;
+    color: green;
+    font-size: 24px;
+}

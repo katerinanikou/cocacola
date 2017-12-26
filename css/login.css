@@ -1,0 +1,176 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+ .main_wrapper{
+ 	width: 100%;
+ }
+
+	div.login {
+	width: 100%;
+	margin: 0 auto;
+	min-height: 200px;
+/*	border: 1px solid #AE9266;*/
+}
+
+h2.login_title  {
+	font-size: 20px;
+	text-align: center;
+	color: #AE9266;
+	margin-top: 50px;
+	padding-bottom: 25px;
+}
+
+h2.create_title {
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 25px;
+	width: 60%;
+	margin: auto;
+}
+
+form {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding-bottom: 30px;
+}
+
+input.login {
+	border: 1px solid #AE9266;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+a#forgot-password{
+	color: #AE9266;
+	margin-left: 5px;
+}
+
+ button {
+ 	margin: 0 auto;
+ 	width: 70%;
+ 	margin: 0 auto;
+ 	margin-top: 10px;
+ 	display: block;
+ 	padding: 10px;
+ 	background-color: #AE9266;
+ 	font-size: 12px;
+ 	color: white;
+ 	border: none;
+ }
+ .create_account {
+ 	width: 100%;
+ 	height: auto;
+ 	min-height: 300px;
+ 	background-color: #AE9266;
+ }
+
+ button#send {
+ 	border: 3px solid white;
+ 	width: 70%;
+ 	margin: 0 auto;
+ }
+
+ .login_wrapper {
+ 	width: 80%;
+ 	margin: 0 auto;
+ 	text-align: center;
+ }
+
+input[type="checkbox"] {
+	position: relative;
+	display: inline;
+}
+@media (min-width: 760px) {
+	.main_wrapper {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: row;
+	}
+
+}
+
+@media (min-width: 1025px) {
+	.main_wrapper {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: row;
+
+	}
+	
+	div.create_account {
+	width: 100%;
+	background-color: #AE9266;
+}
+
+	div.login {
+	width: 50%;
+	margin: 0 auto;
+
+}
+	form {
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 10px;
+
+	}
+
+	form.create_account {
+	margin-top: 20px;
+	}
+
+	input.login{
+	padding-top: 5px;
+	padding-left: 25px;
+	padding-right: 25px;
+	border: 1px solid #AE9266;
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+	div.create_account {
+	width: 50%;
+	margin: 0 auto;
+	background-color: #AE9266;
+}
+ 	
+ 	button#send {
+ 	width: 50%;
+ 	font-size: 14px;
+ 	border: 3px solid white;
+ 	margin-top: 50px;
+ 	}
+
+ 	#login {
+ 	width: 40%;
+ 	font-size: 14px;
+ 	}
+ 	
+ 	button#send:hover {
+	background-color: white;
+ 	color: #AE9266;
+ 	}
+ 	.login_wrapper {
+ 	padding-top: 30px;
+ }
+
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,154 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a.visited {
+	color: white;
+}
+.login {
+	width: 100%;
+}
+
+h1.create_account_title {
+	text-align: center;
+	color: #5a5752;
+	font-size: 16px;
+	padding-top: 10px;
+}
+
+h2.create_account_h2 {
+	text-align: center;
+	color: #5a5752;
+	font-size: 12px;
+}
+
+form.create_user_form {
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 10px;
+}
+
+input {
+	border: 1px solid #AE9266;
+	width: 100%;
+	margin: 0 auto;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+[type="checkbox"] {
+	display: inline;
+	width: auto;
+}
+
+.list_of_users {
+	font-size: 10px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: #AE9266;
+	color: white;
+	padding: 10px;
+}
+
+.create_account {
+	color: #AE9266;
+}
+
+.checkbox_wrapper {
+	width: 70%; 
+	margin: 0 auto;
+}
+label.newsletter_label {
+	color: #5a5752;
+}
+
+button.create_account {
+	background-color: #AE9266;
+	border:  none;
+	color: white;
+	padding: 10px;
+	width: 180px;	
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+/******* MEDIA QUERIES FÖR SKÄRM > 1025px ************/
+@media (min-width: 760px) {
+	.login {
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+	form.create_user_form {
+	width: 100%;
+}
+	input {
+	width: 40%;
+	margin-bottom: 10px;
+}
+
+
+}
+
+@media (min-width: 1025px) {
+	
+	div.login {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+	input {
+	width: 40%;
+	margin-bottom: 10px;
+	padding: 10px;
+
+	}
+	form.create_user_form {
+	width: 70%;
+}
+	h1.create_account_title {
+	text-align: center;
+	color: #5a5752;
+	font-size: 20px;
+}
+	h2.create_account_h2 {
+	text-align: center;
+	color: #5a5752;
+	font-size: 16px;
+
+}
+	
+	button.create_account {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 10px 15px;
+	width: 20%;
+	
+}
+	a.list_of_users {
+	font-size: 12px;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	margin-bottom: 20px;
+	width: 120px;
+}	
+
+	.button_wrapper {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+}
+
+
+
+
+
+
+
+
