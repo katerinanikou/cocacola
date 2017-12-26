@@ -1,0 +1,2 @@
+Databasen
+-Extra kolumn i person "active" default = 1, ska sättas till null när kunden raderar sitt konto.
